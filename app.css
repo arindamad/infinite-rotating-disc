@@ -1,0 +1,46 @@
+body{
+    font-size: 16px;
+}
+.cube-wrapper {
+    width: 60vh;
+    height: 60vh;
+    margin: 25px auto;
+}
+.cube {
+    position: absolute;
+    transform-origin: 30vh 30vh;
+    transform-style: preserve-3d;
+}
+.beam, .face, .loading {
+    position: absolute;
+    width: 60vh;
+    height: 60vh;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    background-size: cover !important;
+}
+.face-1 {
+    transform: translateZ(30vh);
+    background: url(images/1.jpg);
+}
+.face-2 {
+    transform: rotateY(90deg) translateZ(30vh);
+    background: url(images/2.jpg);
+}
+.face-3 {
+    transform: rotateX(90deg) translateZ(30vh);
+    background: url(images/3.jpg);
+}
+.face-4 {
+    transform: rotateX(-90deg) translateZ(30vh);
+    background: url(images/4.jpg);
+}
+.face-5 {
+    transform: rotateY(-90deg) translateZ(30vh);
+    background: url(images/5.jpeg);
+}
+.face-6 {
+    transform: rotateX(-180deg) translateZ(30vh);
+    background: url(images/6.jpg);
+}
